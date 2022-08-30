@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/Challenge-Encriptador.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Silkscreen&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <header>
+            <div class="cajaTitulo">
+                <img class="candado" src="imagenes/candado.png" alt="Imagen de un candado">
+                <p class="titulo">Encriptador</p>
+                <img class="candado" src="imagenes/candado.png" alt="Imagen de un candado">
+            </div>
+            
+        </header>
+        
+        <main>
+            <section class="columna1">
+
+                <textarea class="ingresarTexto" cols="40" rows="6" placeholder="Ingrese el texto aquí."></textarea>
+                <p>⚠ Sólo letras minúsculas y sin acentos</p>
+
+                <div class="botones">
+                    <button class="encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="desencriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+
+            </section>
+
+            <section class="columna2">
+
+                <textarea class="resultado" cols="18" rows="8"></textarea>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+
+            </section>
+
+        </main>
+
+        <script src="Challenge-Encriptador.js"></script>
+
+        <footer>
+    
+            <img class="logoDiego" src="imagenes/logo-diego.png" alt="Logo del desarrollador">
+            <p>Desarrollado por Diego Reyes Zárate</p>
+            <p>Parte del programa ONE impartido por Alura</p>
+        
+            
+
+        </footer>
+    </body>
+
+</html>
